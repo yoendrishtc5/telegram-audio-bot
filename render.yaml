@@ -3,7 +3,7 @@ services:
     name: telegram-audio-bot
     env: python
     plan: free
-    buildCommand: ""
+    buildCommand: "start"
     startCommand: "python bot.py"
     envVars:
       - key: TELEGRAM_BOT_TOKEN
