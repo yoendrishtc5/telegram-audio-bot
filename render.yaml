@@ -1,0 +1,10 @@
+services:
+  - type: web
+    name: telegram-audio-bot
+    env: python
+    plan: free
+    buildCommand: ""
+    startCommand: "python bot.py"
+    envVars:
+      - key: TELEGRAM_BOT_TOKEN
+        value: 7157522759:AAG65ZPGTGQQJXBW0UQQy-YFkv2f1EyMfeU
